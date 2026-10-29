@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "vue": "2.7.16",
-    "elliptic": "6.6.1"
+    "vue": "npm:@neverendingsupport/vue@2.7.16-vue-2.7.27",
+    "elliptic": "npm:@neverendingsupport/elliptic@6.6.1-elliptic-6.6.3"
+  },
+  "overrides": {
+    "elliptic@>=6.0.0 <=6.6.1": {
+      ".": "npm:@neverendingsupport/elliptic@6.6.1-elliptic-6.6.3"
+    },
+    "vue@>=2.0.0 <=2.7.16": {
+      ".": "npm:@neverendingsupport/vue@2.7.16-vue-2.7.27"
+    }
   }
 }
