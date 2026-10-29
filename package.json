@@ -1,0 +1,9 @@
+{
+  "name": "evergreen-validation-a",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "vue": "2.7.16",
+    "elliptic": "6.6.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "evergreen-validation-legacy",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ngx-bootstrap": "5.6.0"
+  }
+}
